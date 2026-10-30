@@ -1,0 +1,15 @@
+[package]
+name = "helius-context-slot-repro"
+version = "0.1.0"
+edition = "2021"
+publish = false
+
+[dependencies]
+jsonrpc-core = "18.0.0"
+reqwest = { version = "0.12", default-features = false, features = ["blocking", "json", "rustls-tls"] }
+serde = "1"
+serde_json = "1"
+solana-account-decoder-client-types = "4.3.0"
+solana-commitment-config = "3.1.1"
+solana-rpc-client-api = "4.3.0"
+solana-sdk-ids = "3.1.0"
